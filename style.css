@@ -13,9 +13,6 @@
   filter: brightness(0.85);
   box-shadow: 1px 1px 2px rgb(93, 183, 126);
   text-shadow: -1px -1px 0 rgb(73, 73, 73);
-  /* background-color:rgb(152, 88, 88);
-  border: 1px solid rgb(61, 40, 40);s
-  box-shadow: 2px 5px .4em rgb(163, 132, 132); */
 }
 
 
@@ -24,10 +21,21 @@
   padding-right:10px;
 }
 
+.navbar-nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+.navbar-nav a.active {
+  border-bottom: 2px solid white;
+}
+
+.navbar-nav a.current {
+  border-bottom: 2px solid white;
+}
+
 .navbar-customclass1 {
     background-color:white;
 }
-
 
 
 .navbar-customclass2 {
@@ -41,9 +49,8 @@
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(100%);
-    /* outline: rgb(65, 75, 162);
-    background-color: rgba(0, 0, 0, 0.3); */
 }
+
 body, html {
     height: 100%;
     margin: 0;
